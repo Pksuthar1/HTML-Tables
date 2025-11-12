@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+</head>
+<body>
+    <section>
+        <h3>🧩Practice Assignment (01)</h3>
+    <table border="2" cellpadding="10">
+        <thead>
+            <caption>SMIT Banch-9</caption>
+        <tr>
+            <th>Student Name</th>
+            <th>Math</th>
+            <th>English</th>
+            <th>Science</th>
+            <th>Computer</th>
+            <th>Total Attendance</th>
+        </tr>
+        </thead>
+        
+        <tbody>
+        <tr>
+            <td>Ali</td>
+            <td>P</td>
+            <td>P</td>
+            <td>A</td>
+            <td>P</td>
+            <td>3</td>
+        </tr>
+
+        <tr>
+            <td>Ayesha</td>
+            <td>P</td>
+            <td>P</td>
+            <td>P</td>
+            <td>P</td>
+            <td>4</td>
+        </tr>
+
+        <tr>
+            <td>Hina</td>
+            <td>P</td>
+            <td>A</td>
+            <td>P</td>
+            <td>P</td>
+            <td>3</td>
+        </tr>  
+
+        <tr>
+            <td>Sara</td>
+            <td>P</td>
+            <td>P</td>
+            <td>P</td>
+            <td>A</td>
+            <td>3</td>
+        </tr> 
+        
+        <tr>
+           <td>Omar</td>
+           <td>P</td>
+           <td>A</td>
+           <td>P</td>
+           <td>P</td>
+           <td>3</td>
+        </tr> 
+        </tbody>
+
+    </table>
+    </section><br><hr><br>
+
+    <section>
+        <h3>2️⃣ Merge Rows Example (rowspan)</h3>
+        <table border="2" cellpadding="10" cellspacing="10">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Marks</th>
+        </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="2">Ali</td>
+                <td>Math</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <!-- <td>Ali</td> -->
+                <td>Science</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>Ayesha</td>
+                <td>English</td>
+                <td>95</td>
+            </tr>
+        </tbody>
+    </table>
+    </section><br><hr><br>
+
+    <section>
+        <h3>2️⃣ Merge Column Example (colspan)</h3>
+        <table border="2" cellpadding="10" cellspacing="10">
+            <thead>
+                <tr>
+                    <th rowspan="2">Meal Type</th>
+                    <th rowspan="2">Item</th>
+                    <th colspan="2">Price</th>
+                </tr>
+                <tr>
+                    <th>Half</th>
+                    <th>Full</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Breakfast</td> 
+                    <td>Omelette</td>
+                    <td>80</td>
+                    <td>120</td>
+                </tr>
+                <tr>
+                    <td>Paratha</td>
+                    <td>50</td>
+                    <td>90</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Lunch</td>
+                    <td>Chicken Biryani  </td>
+                    <td>150</td>
+                    <td>250</td>
+                </tr>
+                <tr>
+                    <td>Veg Pulao</td>
+                    <td>120</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Dinner</td>
+                    <td>BBQ Platter </td>
+                    <td>250</td>
+                    <td>400</td>
+                </tr>
+                <tr>
+                    <td>Karahi </td>
+                    <td>200</td>
+                    <td>350</td>
+                </tr>
+            </tbody>
+        </table>
+    </section><br><hr><br>
+    <section>
+        <h3>🧩Practice Assignment (02)</h3>
+        <table border="2" cellpadding="10" cellspacing="10">
+            <thead>
+                <caption><b>Product Price List</b></caption>
+                <tr>
+                    <th rowspan="2">Category</th>
+                    <th rowspan="2">Product Name</th>
+                    <th colspan="2">Price</th>
+                </tr>
+                <tr>
+                    <th>Wholesale</th>
+                    <th>Retail</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Electronics</td>
+                    <td>Mobile Phone </td>
+                    <td>25000</td>
+                    <td>28000</td>
+                </tr>
+                <tr>
+                    <td>Laptop</td>
+                    <td>80000</td>
+                    <td>90000</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Furniture</td>
+                    <td>Chair</td>
+                    <td>2000</td>
+                    <td>2500</td>
+                </tr>
+                <td>Table</td>
+                <td>4000</td>
+                <td>5000</td>
+            </tbody>
+        </table>
+    </section><br><hr><br>
+    <section>
+        <table border="2" cellpadding="10" cellspacing="10">
+            <caption><b>Company Employee Information Table</b></caption>
+            <thead>
+            <tr>
+                <th rowspan="2">Department</th>
+                <th rowspan="2">Employee Name</th>
+                <th colspan="2">Contact Information</th>
+            </tr>
+            <tr>
+                <th>Phone</th>
+                <th>Email</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">HR</td>
+                    <td>Ali</td>
+                    <td>0300-1234567</td>
+                    <td>ali@company.com</td>
+                </tr>
+                <tr>
+                    <td>Sara</td>
+                    <td>0300-7654321</td>
+                    <td>sara@company.com</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">IT</td>
+                    <td>Ahmed</td>
+                    <td>0300-3336999</td>
+                    <td>ahmed@company.com</td>
+                </tr>
+                <tr>
+                    <td>Hina</td>
+                    <td>0300-3330444</td>
+                    <td>hina@company.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section><br><hr><br>
+    <section>
+        <table border="2" cellpadding="10" cellspacing="10">
+            <caption><b>Sports Tournament Results</b></caption>
+            <thead>
+                <tr>
+                    <th rowspan="2">Sport</th>
+                    <th rowspan="2">Teams</th>
+                    <th colspan="2">Scores</th>
+                </tr>
+                <tr>
+                    <th>Team A</th>
+                    <th>Team B</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Circket</td>
+                    <td>Pakistan vs India</td>
+                    <td>230</td>
+                    <td>210</td>
+                </tr>
+                <tr>
+                    <td>Australia vs NZ </td>
+                    <td>190</td>
+                    <td>209</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Football</td>
+                    <td>Brazil vs Argentina</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Spain vs France</td>
+                    <td>5</td>
+                    <td>4</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>
